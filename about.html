@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Vidhi Ajmera</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            margin: 0;
+            padding: 0;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 90%;
+            max-width: 800px;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .section {
+            margin: 20px 0;
+        }
+
+        .section h2 {
+            border-bottom: 2px solid #ff7e5f;
+            padding-bottom: 10px;
+            color: #ff7e5f;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .contact-info a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .skills, .experience {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .skills div, .experience div {
+            flex: 1 1 45%;
+            margin: 10px 0;
+        }
+
+        .projects, .achievements {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .projects div, .achievements div {
+            margin: 10px 0;
+        }
+
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 120px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 5px;
+            border-radius: 6px;
+
+            /* Position the tooltip */
+            position: absolute;
+            z-index: 1;
+            bottom: 125%; 
+            left: 50%;
+            margin-left: -60px;
+
+            /* Fade in tooltip */
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        @media (max-width: 600px) {
+            .skills div, .experience div {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>About Vidhi Ajmera</h1>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:vidhi2005ajmera@gmail.com">vidhi2005ajmera@gmail.com</a></p>
+            <p>Phone: <a href="tel:+917668903828">+91 76689 03828</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/vidhi-ajmera-501328257/" target="_blank">linkedin.com/in/vidhi-ajmera-501328257/</a></p>
+            <p>Location: Kasganj, UP</p>
+        </div>
+        <div class="section">
+            <h2>Interests</h2>
+            <p><strong>Professional:</strong> Frontend development, Machine Learning, Learning new technologies.</p>
+            <p><strong>Personal:</strong> Travelling, exploring all around, cricket.</p>
+        </div>
+        <div class="section">
+            <h2>Achievements</h2>
+            <div class="achievements">
+                <div>Intern at IISER, Bhopal</div>
+                <div>Solved 250+ questions based on Data Structures and Algorithms on Leetcode, GeeksforGeeks, Codechef, Codeforces.</div>
+                <div>Certification on Excel.</div>
+                <div>Micro-experience by RIVIGO (building a model for identifying inaccurate weight and volume measurements in E-Commerce Box Pick-up).</div>
+                <div>Certification course by Infosys on Demystifying Generative AI for Leaders.</div>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Experience/Projects</h2>
+            <div class="experience">
+                <div>
+                    <strong>Intern at IISER, Bhopal (June 2024 - Present)</strong><br>
+                    Domain of internship: Medical AI<br>
+                    Designed a model for detecting cancer in individuals using AI techniques.
+                </div>
+                <div>
+                    <strong>Earthquake Status Prediction (Mini-Project) (Jan 2024 - Apr 2024)</strong><br>
+                    Predicting the magnitude of earthquakes is the primary area of effort, although research is ongoing in this enormous field because it is impossible to identify natural disasters.<br>
+                    The model forecasts the magnitude's status as either automated or reviewed.
+                </div>
+                <div>
+                    <strong>Sentiment Analysis Using Natural Language Processing</strong><br>
+                    Applied NLP techniques to analyze sentiment in text data, enhancing understanding of public opinion and feedback.
+                </div>
+                <div>
+                    <strong>Web Development</strong><br>
+                    Completed a comprehensive Full Stack Web Development certification course on Udemy, acquiring skills in HTML, CSS, JavaScript, and back-end technologies, enhancing development efficiency.<br>
+                    Projects: Personal portfolio, Netflix Clone, Build own API, Chatbot for website using Dialogflow.
+                </div>
+                <div>
+                    <strong>Computer Vision</strong><br>
+                    <strong>Air Canvas with Hand Landmarks Project:</strong> Implemented a computer vision application that allows users to draw in the air using hand gestures detected by landmark recognition.<br>
+                    <strong>Interactive Rock-Paper-Scissors Game:</strong> Developed a game using computer vision for real-time hand gesture recognition, providing an interactive user experience.
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div>
+                    <strong>Programming Languages:</strong> Java, HTML, CSS, JavaScript, Angular, Node.js, MongoDB, Computer Vision (Python), Machine Learning
+                </div>
+                <div>
+                    <strong>Tools:</strong> VS Code, Eclipse, MySQL, PostgreSQL, Linux/Unix
+                </div>
+                <div>
+                    <strong>Other Skills:</strong> Excel for Data Analysis, Content Writing, Chatbot
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Education</h2>
+            <div class="education">
+                <div>
+                    <strong>GLA University, Mathura (2022 - 2026)</strong><br>
+                    B. Tech CS (AIML)<br>
+                    Specialization in Artificial Intelligence and Machine Learning.
+                </div>
+                <div>
+                    <strong>JP Public Academy (2021 - 2022)</strong><br>
+                    Central Board of Secondary Education - Class XII; 87%
+                </div>
+                <div>
+                    <strong>JP Public Academy (2019 - 2020)</strong><br>
+                    Central Board of Secondary Education - Class X; 88.6%
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
